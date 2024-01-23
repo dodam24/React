@@ -22,6 +22,7 @@ class Notification extends React.Component {
     this.state = {};
   }
 
+
   // 생명 주기
   componentDidMount() {
     console.log(`${this.props.id} componentDidMount() called.`);
@@ -35,6 +36,7 @@ class Notification extends React.Component {
     console.log(`${this.props.id} componentWillUnmount() called.`);
   }
 
+  
   render() {
     return (
       <div style={styles.wrapper}>
