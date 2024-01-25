@@ -1,5 +1,3 @@
-import React from "react";
-
 function Card(props) {
   const { title, backgroundColor, children } = props;
   return (
